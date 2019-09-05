@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+    <!-- 背景图 -->
+    <item android:drawable="@mipmap/splash_screen" />
+    <!-- 底部logo-->
+    <item android:bottom="40dp">
+        <bitmap
+            android:gravity="bottom"
+            android:src="@mipmap/bg_splash_bottom" />
+    </item>
+</layer-list>
